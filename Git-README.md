@@ -1,4 +1,46 @@
+is my second 创建 git project
+
+question
+git add C51 //没有点，点是全部文件
+
+
+git remote -v  //查看当前关联的地址
+
+
+
+git pull origin main --allow-unrelated-histories
+
+
+
+  
+//deepseek：你之前已经执行过 git remote add origin ... 了，本地仓库已经关联了一个名为 origin 的远程地址，不能重复添加。
+
+
+
+
+
+//我没搞懂什么东西，慎用 有懂的大佬可以解释一下
+
+
+
+
+
+
+git push origin main  //最后直接上传  一开始是git push -u origin main
+
+
+
+
+
+
+
+
 is my frist 创建 git project
+
+
+
+
+
 
 
  D:  
@@ -6,20 +48,30 @@ is my frist 创建 git project
  
  cd "D:\work\project"
 
-   
+
+
+
+
+
  //到“文件地址”（上传文件）
 
 
 
- 
+
+
+
+
  git init       
  //初始化（生成git文件，给github识别）  //deepseek:在当前文件夹中创建一个隐藏的 .git 目录。这标志着该文件夹开始被 Git 接管，支持版本控制。
 
 
 
 
- 
- git add.                    git add.C51
+
+
+
+ git add.                    git add C51
+
 
 
 
@@ -32,7 +84,6 @@ is my frist 创建 git project
 
 
 
- 
  git status    
  //检查上传文件状态
 
@@ -41,16 +92,12 @@ is my frist 创建 git project
 
 
 
-
- 
  git commit -m "first submission"
 
 
 
 
 
-
-      
  //上传时的日志大概内容      //deepseek:正式将暂存区的快照存入本地仓库，形成一个可追溯的版本。“-m”后面的信息必须写，方便日后理解这次提交的目的。
 
 
@@ -58,12 +105,8 @@ is my frist 创建 git project
 
 
 
-
- 
  git log  
  //查看上传时间 作者 版本
-
-
 
 
 
@@ -76,20 +119,14 @@ is my frist 创建 git project
 
 
 
-
-  
  //链接github仓库地址   //deepseek:让本地仓库知道它对应的远程仓库是谁。“origin”是远程仓库的别名，通常指主仓库的地址。
 
 
 
 
 
-
-
-
+ 
 git branch -M main
-
-
 
 
 
@@ -102,11 +139,7 @@ git branch -M main
 
 
 
-
-
 git push -u origin main
-
-
 
 
 
