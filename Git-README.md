@@ -70,7 +70,7 @@ is my frist 创建 git project
 
 
  
- git remote add origin https://github.com/Prefer-neko/learn-project.git
+ git remote add origin https://github.com/----------------------.git
 
 
 
