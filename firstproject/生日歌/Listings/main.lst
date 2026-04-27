@@ -1,0 +1,47 @@
+C51 COMPILER V9.54   MAIN                                                                  02/05/2025 22:07:58 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\qianrushi\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\ma
+                    -in.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          sbit K0=P1^0;
+   3          sbit mic=P1^7; //??????
+   4          bit flag; //?????
+   5          unsigned char i; //????
+   6          unsigned char song[]=
+   7          {
+   8            1,1,2,1,4,3,1,1,2,1,5,4,
+   9            1,1,8,6,4,3,2,2,7,7,6,4,5,4,15
+  10          }; //???????
+  11          int tone[]=
+  12          {
+  13            1012,903,852,759,716,638,568,506,478,426,379
+  14          }; //??????
+  15          unsigned char beat[]=
+  16          {
+  17            60,10,40,40,40,80,60,10,40,40,40,80,
+  18            60,10,40,40,40,40,40,60,10,40,40,40,80
+  19          };//????
+  20          unsigned char beath=(65536-50000)/256;
+  21          unsigned char beatl=(65536-50000)%256; //??????
+  22          unsigned char time,j,k;
+  23          int toneh,tonel;
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     84    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

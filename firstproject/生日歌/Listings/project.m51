@@ -1,0 +1,71 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        02/05/2025  22:11:51  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\QIANRUSHI\C51\BIN\BL51.EXE .\Objects\main.obj TO .\Objects\project PRINT (.\Listings\project.m51) RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\main.obj (MAIN)
+
+
+LINK MAP OF MODULE:  .\Objects\project (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+                    0000H     0020H                  *** GAP ***
+            BIT     0020H.0   0000H.1   UNIT         ?BI?MAIN
+                    0020H.1   0000H.7                *** GAP ***
+            DATA    0021H     0054H     UNIT         ?DT?MAIN
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0056H     UNIT         ?C_INITSEG
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\project (MAIN)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\project (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:0021H         PUBLIC        beath
+  D:0022H         PUBLIC        beatl
+  B:0020H.0       PUBLIC        flag
+  D:0023H         PUBLIC        beat
+  D:003CH         PUBLIC        toneh
+  D:003EH         PUBLIC        tonel
+  D:0040H         PUBLIC        time
+  D:0041H         PUBLIC        tone
+  D:0057H         PUBLIC        song
+  D:0072H         PUBLIC        i
+  D:0073H         PUBLIC        j
+  D:0074H         PUBLIC        k
+  -------         ENDMOD        MAIN
+
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/05/2025  22:11:51  PAGE 2
+
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?C_INITSEG
+
+*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
+
+Program Size: data=84.1 xdata=0 code=86
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)
