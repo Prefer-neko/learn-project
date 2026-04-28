@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS层叠性</title>
+<style type="text/css">
+div{color:#00F;}
+.red{color:#F0F;}
+p{ color:blue;}
+.special{ color:green;}
+p.special{ color:red;}    /*标签指定式选择器*/
+</style>
+</head>
+<body>
+<div class="red">CSS层叠性，猜猜我是什么颜色</div>
+<p>普通段落文本（蓝色）</p>
+<p class="special">指定了.special类的段落文本（红色）</p>
+<h3 class="special">指定了.special类的标题文本（绿色）</h3>
+</body>
+</html>

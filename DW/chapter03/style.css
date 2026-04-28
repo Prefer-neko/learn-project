@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.part2{color:red;}
+.part3{letter-spacing:18px;}
+.part4{word-spacing:18px;}
+.part5{line-height:28px;}
+.part6{text-transform:uppercase;}
+.part7{text-transform:capitalize;}
+.part8{text-transform:lowercase;}
+.part9{ text-decoration:overline;}
+.part10{ text-decoration:underline;}
+.part11{ text-decoration:line-through;}
+.part12{ text-align:center;}
+.part13{ text-indent:2em;}
+.part14{ white-space:pre;}
+/*CSS文本外观属性*/
+/*链入式*/

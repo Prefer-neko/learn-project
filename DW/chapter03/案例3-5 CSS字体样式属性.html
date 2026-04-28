@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS字体样式属性</title>
+<style type="text/css">
+@font-face{
+		font-family:ziti;          /*服务器字体名称*/
+		src:url(font/FZJZJW.TTF);  /*服务器字体名称*/
+	}
+.part1{font-family:"微软雅黑";font-size:18px;color:red;font-style:italic;font-weight:bold;}
+.part2{font-family:ziti;     /*设置字体样式*/
+	   font-size:24px;
+	   color:blue; 
+	   }
+</style>
+</head>
+<body>
+<p class="part1">我是设置为微软雅黑、18像素、倾斜、加粗的红色字体</p>
+<p class="part2">我是使用@font-face属性定义的服务器字体，显示为24像素的蓝色字体</p>
+</body>
+</html>

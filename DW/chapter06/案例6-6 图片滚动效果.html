@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图片滚动样式</title>
+<style type="text/css">
+body, div, ul, li, ol, h1, h2, h3, h4, h5, input, textarea, p, dl, dd, dt {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	color: #3c3c3c;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+.view {
+	width: 998px;
+	height: 190px;
+	margin: 50px auto;
+	border: 1px solid #D2E1F1;
+	border-top: 1px solid #458FCE;
+	position: relative;
+}
+.view dt {
+	height: 30px;
+	background-color: #F6F9FE;
+}
+.view dt a {
+	color: #458fce;
+	font-size: 14px;
+	padding: 7px 0 0 12px;
+	display: block;
+	width: 70px;
+}
+.view dd {
+	padding: 20px 43px 0;
+}
+.view dd li {
+	float: left;
+	margin-right: 28px;
+	text-align: center;
+}
+.view dd li p {
+	padding-top: 8px;
+}
+.view dd li a {
+	font-size: 12px;
+}
+.view dd li a:hover {
+	color: #f00;
+}
+.view .nomargin {
+	margin-right: 0;
+}
+.left {
+	width: 11px;
+	height: 20px;
+	background: url(images/icon_r1_c1.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 90px;
+	left: 18px;
+}
+.left:hover {
+	background: url(images/icon_r1_c5.png) no-repeat;
+}
+.right {
+	background: url(images/icon_r1_c3.png) no-repeat;
+	width: 11px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 90px;
+	right: 18px;
+}
+</style>
+</head>
+
+<body>
+<dl class="view">
+  <dt>
+    <h2><a href="#">视觉焦点</a></h2>
+  </dt>
+  <dd> <a href="#" class="left"></a>
+    <ul>
+      <li> <img src="images/01.jpg" />
+        <p><a href="#">泰国北部发生地震</a></p>
+      </li>
+      <li> <img src="images/01.jpg" />
+        <p><a href="#">泰国北部发生地震</a></p>
+      </li>
+      <li> <img src="images/01.jpg" />
+        <p><a href="#">泰国北部发生地震</a></p>
+      </li>
+      <li> <img src="images/01.jpg" />
+        <p><a href="#">泰国北部发生地震</a></p>
+      </li>
+      <li class="nomargin"> <img src="images/01.jpg" />
+        <p><a href="#">泰国北部发生地震</a></p>
+      </li>
+    </ul>
+    <a href="#" class="right"></a> </dd>
+</dl>
+</body>
+</html>
