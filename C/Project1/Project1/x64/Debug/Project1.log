@@ -1,0 +1,9 @@
+﻿  源.c
+D:\work\C\Project1\Project1\源.c(10,9): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+      D:\work\C\Project1\Project1\源.c(10,9):
+      占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+      D:\work\C\Project1\Project1\源.c(10,9):
+      缺失的可变参数 1 为格式字符串“% s”所需
+  
+D:\work\C\Project1\Project1\源.c(5,6): warning C4047: “初始化”:“int”与“char [12]”的间接级别不同
+  Project1.vcxproj -> D:\work\C\Project1\x64\Debug\Project1.exe
