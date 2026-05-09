@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS美化表单</title>
+<style type="text/css">
+body{font-size:12px; font-family:"宋体";}                      /*全局控制*/
+body,ul,li,form,input{padding:0; margin:0; border:0;list-style: none;}         /*重置浏览器的默认样式*/
+.content{width:400px; height:185px; background:url(images/bg03.jpg) 0 -27px; margin:20px auto; padding-top:15px;}
+.fset{width:350px; height:150px; margin:0 auto ; border:#999 1px solid; color:#FFF;}
+.white{color:#FFF; font-size:16px; font-weight:bold;}
+.box{margin:30px 50px 0;}
+li{padding-bottom:13px;}
+.right{padding-left:65px;}
+.one{width:70px;text-align:right;float: left;}
+.btn{width:83px; height:63px; background:url(images/btn.jpg) no-repeat right 0;}
+</style>
+</head>
+<body>
+<form action="#" method="post" name="example" class="content">
+	 <fieldset class="fset">
+     	<legend class="white">个人注册</legend>
+        <div class="box">
+        	<ul>
+            	<li class="one">用户账号：</li>
+                <li><input type="text" maxlength="12" /></li>
+            </ul>
+            <ul>
+            	<li class="one">密码：</li>
+                <li><input type="text" maxlength="12"/></li>
+            </ul>
+            <ul>
+            	<li></li>
+                <li class="right"><input class="btn" type="button" /></li>
+            </ul>
+        </div>
+     </fieldset>
+</form>
+</body>
+</html>

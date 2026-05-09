@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单</title>
+</head>
+<body>
+<form action="" method="" name="myForm">
+    用户名:<input type="text" name="username" value="李四" size="20" maxlength="4" /><br/><br/>
+    密码:<input type="password" name="passwrod" /><br/><br/>
+    性别:<label><input type="radio" name="gender" value="man"/>男</label>
+         <input type="radio" name="gender" value="female" id="nv" /><label for="nv">女</label><br/><br/>
+    兴趣:<input type="checkbox" name="interest" value="sing" />唱歌
+         <input type="checkbox" name="interest" value="dance" />跳舞
+         <input type="checkbox" name="interest" value="敲代码" checked="checked" disabled="disabled"/>敲代码<br/><br/>
+    头像:<input type="file" name="pic" /><br/><br/>
+    城市：<select name="city">
+            <option value="">-请选择城市-</option>
+            <option value="bj">北京</option>
+            <option value="gz">广州</option>
+            <option value="sh">上海</option>
+          </select><br/><br/>
+    自我介绍:<br/>
+    <textarea rows="8" cols="30"></textarea><br/><br/>
+    <input type="submit" value="提交"/>
+    <input type="reset" value="充填"/>
+    <input type="button" value="普通按钮" />
+</form>
+</body>
+</html>
